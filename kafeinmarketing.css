@@ -1,0 +1,199 @@
+@charset "UTF-8";
+@import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@2.0/nanumsquare.css);
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@400;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'NanumSquare', sans-serif;
+}
+
+ul, li{
+    list-style: none;
+}
+.sec1{
+    width: 100%;
+    height: 100vh;
+    background-image: url("./sec1배경.png");
+    color: white;
+}
+.sec1 .introduce{
+    display: flex;
+    padding: 250px 0 0 235px;
+    font-size: 20px;
+    line-height: 35px;
+    font-weight: 500;
+}
+.sec1 .name{
+    display: flex;
+    font-weight: 500;
+    font-size: 150px;
+    padding: 100px 0 0 630px;
+}
+.sec1 .name p{
+    font-size: 50px;
+    padding: 100px 0 0 30px;
+}
+.sec2{
+    width: 100%;
+    height: 100vh;
+    background-image: url("./sec2배경.png");
+    background-size: fill;
+    display: flex;
+}
+.sec2 .sec2inner{
+    width: 70%;
+    height: 75%;
+    padding: 50px 30px;
+    margin: 100px 0 0 150px;
+}
+.sec2 .tag{
+    font-family: 'Charm', cursive;
+    font-size: 50px;
+    width: 485px;
+    border-bottom: 10px solid #EEF1FA;
+    color: #7e91cb;
+    font-weight: 700;
+}
+.sec2 .tagtext{
+    padding: 10px 0 0 20px;
+    font-size: 30px;
+}
+.sec2 .part1{
+    display: flex;
+}
+.sec2 .part1 .part1-1 .profil{
+    font-family: 'Charm', cursive;
+    font-size: 35px;
+    padding: 50px 0 0 0;
+    width: 90px;
+    color: #7e91cb;
+}
+.sec2 .part1 .part1-1 .profiltext{
+    margin: 0 0 0 20px;
+    padding: 10px 0 0 0;
+    line-height: 30px;
+    font-size: 20px;
+}
+.sec2 .part1 .part1-2 .contact{
+    font-family: 'Charm', cursive;
+    font-size: 35px;
+    padding: 50px 0 0 0;
+    margin: 0 0 0 75px;
+    width: 90px;
+    color: #7e91cb;
+}
+.sec2 .part1 .part1-2 .contacttext{
+    margin: 0 0 0 95px;
+    padding: 10px 0 0 0;
+    line-height: 30px;
+    font-size: 20px;
+}
+.sec2 .part1 .part1-3 .edu{
+    font-family: 'Charm', cursive;
+    font-size: 35px;
+    padding: 50px 0 0 0;
+    margin: 0 0 0 75px;
+    width: 90px;
+    color: #7e91cb;
+}
+.sec2 .part1 .part1-3 .edutext{
+    margin: 0 0 0 95px;
+    padding: 10px 0 0 0;
+    line-height: 30px;
+    font-size: 20px;
+}
+.sec2 .part2{
+    display: flex;
+}
+.sec2 .part2 .part2-1 .career{
+    font-family: 'Charm', cursive;
+    font-size: 35px;
+    padding: 50px 0 0 0;
+    width: 90px;
+    color: #7e91cb;
+}
+.sec2 .part2 .part2-1 .careertext{
+    margin: 0 0 0 20px;
+    padding: 10px 0 0 0;
+    line-height: 30px;
+    font-size: 20px;
+}
+.sec3{
+    width: 100%;
+    height: 100vh;
+    background-image: url("./sec3배경.png");
+    background-size: fill;
+    display: flex;
+}
+.sec3 .part1{
+    width: 50%;
+    padding: 100px 0 0 180px;
+}
+.sec3 .part1 .part1-1 .awards{
+    font-family: 'Charm', cursive;
+    font-size: 70px;
+    padding: 50px 0 0 0;
+    width: 90px;
+    color: white;
+}
+.sec3 .part1 .part1-1 .awardstext{
+    margin: 0 0 0 20px;
+    padding: 10px 0 0 0;
+    line-height: 35px;
+    font-size: 20px;
+    color: white;
+}
+.sec4{
+    width: 100%;
+    height: 100vh;
+    background-image: url("./sec4배경.png");
+    background-size: fill;
+    display: flex;
+}
+.sec4 .part1{
+    padding: 150px 0 0 180px;
+}
+.sec4 .part1 .result{
+    font-family: 'Charm', cursive;
+    font-size: 70px;
+    display: flex;
+    color: #7e91cb;
+}
+.sec4 .part1 .resulttext{
+    margin: 0 0 0 20px;
+    padding: 30px 0 0 0;
+    line-height: 50px;
+    font-size: 28px;
+    cursor: pointer;
+}
+.sec4 .part1 .resulttext .result1{
+    color: #7e91cb;
+}
+.sec4 .part2 .pc .pcimage{
+    position: absolute;
+    right: 8%;
+    margin: 200px 0 0 0;
+}
+.sec4 .part2 .mobile .mobileimage{
+    position: absolute;
+    right: 40%;
+    margin: 360px 0 0 0;
+    z-index: 5000;
+}
+.sec4 .part3 .resultpcimage .result1pcimage{
+    position: absolute;
+    width: 660px;
+    height: 428px;
+    right: 9%;
+    margin: 220px 0 0 0;
+}
+.sec4 .part3 .resultmobileimage .result1mobileimage{
+    position: absolute;
+    width: 172px;
+    height: 285px;
+    right: 40.7%;
+    margin: 400px 0 0 0;
+    z-index: 10000;
+}
