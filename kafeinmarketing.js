@@ -82,7 +82,7 @@ $(document).ready(function(){
         $('.sec4 .part1 .resulttext .result4').css('color','#000000');
         $('.sec4 .part1 .resulttext .result1').css('color','#000000');
     })
-    $(window).on('load', function () {
+    $(document).ready(function () {
         setFlowBanner();  
     })
     
@@ -93,7 +93,7 @@ $(document).ready(function(){
         let listWidth = ''; //$list의 가로 크기
         const speed = 92; //1초에 몇픽셀 이동하는지 설정
     
-        //리스트 복제
+        // 리스트 복제
         let $clone = $list.clone();
         $wrap.append($clone);
         flowBannerAct()

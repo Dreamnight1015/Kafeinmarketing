@@ -6,10 +6,12 @@ body{
 .sec1{
     background-size: contain;
     background-repeat: no-repeat;
+    height: 500px;
 }
 .sec1 .introduce{
     display: none;
 }
+
 .sec1 .introducet{
     display: block;
     position: absolute;
@@ -25,4 +27,170 @@ body{
 .sec1 .name p{
     font-size: 25px;
     padding: 7% 0 0 2%;
+}
+.sec2{
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+.sec2 .sec2inner{
+    margin: 1% 0 0 5%;
+}
+.sec2 .tag{
+    font-size: 2.95vw;
+    width: 46%;
+    border-bottom: 7px solid #EEF1FA;
+}
+.sec2 .tagtext{
+    font-size: 1.7vw;
+    padding: 1% 0 0 2%;
+}
+.sec2 .part1 .part1-1 .profil{
+    width: 33%;
+    padding: 10% 0 0 0;
+    font-size: 2.2vw;
+}
+.sec2 .part1 .part1-1 .profiltext{
+    width: 100%;
+    margin: 2% 0 0 10%;
+    padding: 0;
+    line-height: normal;
+    font-size: 1.3vw;
+}
+.sec2 .part1 .part1-2 .contact{
+    width: 33%;
+    padding: 3% 0 0 0;
+    font-size: 2.2vw;
+    margin: 0 0 0 10%;
+}
+.sec2 .part1 .part1-2 .contacttext{
+    width: 100%;
+    margin: 0 0 0 15%;
+    padding: 0;
+    line-height: normal;
+    font-size: 1.3vw;
+}
+.sec2 .part1 .part1-3 .edu{
+    width: 33%;
+    margin: 0;
+    padding: 1% 0 0 15%;
+    font-size: 2.2vw;
+}
+.sec2 .part1 .part1-3 .edutext{
+    width: 100%;
+    margin: 0 0 0 18%;
+    padding: 0 0 0 0;
+    line-height: normal;
+    font-size: 1.3vw;
+}
+.sec2 .part2 .part2-1 .career{
+    font-size: 2.2vw;
+    padding: 1% 0 0 0;
+}
+.sec2 .part2 .part2-1 .careertext{
+    font-size: 1.3vw;
+    line-height: normal;
+    margin: 0 0 0 1%;
+    padding: 0;
+    width: 100%;
+}
+.sec3{
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+.sec3 .part1{
+    padding: 1.5% 0 0 9%;
+}
+.sec3 .part1 .part1-1 .awards{
+    font-size: 4vw;
+    margin: 0 0 0 15%;
+}
+.sec3 .part1 .part1-1 .awardstext{
+    margin: 0 0 0 20%;
+    padding: 1% 0 0 0;
+    line-height: 2vw;
+    font-size: 1.2vw;
+    color: white;
+}
+.sec3sub .part1 .flow_banner .list{
+    display: flex;
+    gap: 3vw;
+}
+.sec3sub .part1 .flow_banner .list > li a{
+    width: 17vw;
+    height: 27vh;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.sec4{
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+.sec4 .part1{
+    padding: 7% 0 0 9%;
+}
+.sec4 .part1 .result{
+    font-size: 4vw;
+}
+.sec4 .part1 .resulttext{
+    width: 100%;
+    margin: 0 0 0 5%;
+    padding: 5% 0 0 0;
+    line-height: 2.5vw;
+    font-size: 1.5vw;
+}
+.sec4 .part1 .resulttext .moreview{
+    border: 2px solid #7e91cb;
+    display: flex;
+    float: right;
+    margin: 10% 0 0 0;
+    padding: 0 10px;
+    font-size: 1.3vw;
+    border-radius: 10px;
+}
+.sec4 .part2 .pc .pcimage{
+    width: 40%;
+    height: 39%;
+    margin: 8% 0 0 0;
+}
+.sec4 .part3 .resultpcimage .result1pcimage{
+    position: absolute;
+    width: 38%;
+    height: 29%;
+    right: 9%;
+    margin: 9.5% 0 0 0;
+}
+.sec4 .part2 .mobile .mobileimage{
+    position: absolute;
+    height: 27.5%;
+    right: 40%;
+    margin: 18% 0 0 0;
+    z-index: 500;
+    width: 11%;
+}
+.sec4 .part3 .resultmobileimage .result1mobileimage{
+    position: absolute;
+    width: 9.9%;
+    height: 20%;
+    right: 40.7%;
+    margin: 20.5% 0 0 0;
+    z-index: 501;
+}
+.sec5{
+    height: 500px;
+    background: #7e91cb;
+    background-size: fill;
+    display: flex;
+}
+.sec5 .part1 .thanks{
+    font-family: 'Charm', cursive;
+    font-size: 100px;
+    margin: 0 auto;
+}
+.sec5 .part1 .thankstext{
+    margin: 3% 0 0 0;
+    font-size: 2vw;
 }
