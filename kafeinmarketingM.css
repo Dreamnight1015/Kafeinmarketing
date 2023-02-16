@@ -33,6 +33,8 @@ body {
     background-repeat: no-repeat;
     background-image: none;
     display: flex;
+    height: 100%;
+    padding: 0 0 3% 0;
 }
 .sec2 .sec2inner{
     margin: 0 0 0 15%;
