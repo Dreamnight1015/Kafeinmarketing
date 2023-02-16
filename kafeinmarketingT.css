@@ -104,10 +104,10 @@ body{
 }
 .sec3 .part1 .part1-1 .awards{
     font-size: 4vw;
-    margin: 0 0 0 15%;
+    margin: 0 0 0 0;
 }
 .sec3 .part1 .part1-1 .awardstext{
-    margin: 0 0 0 20%;
+    margin: 0 0 0 5%;
     padding: 1% 0 0 0;
     line-height: 2vw;
     font-size: 1.2vw;

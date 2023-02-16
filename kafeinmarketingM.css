@@ -162,22 +162,26 @@ body {
     background-size: contain;
     background-repeat: no-repeat;
     background-image: none;
-    height: 270px;
     display: flex;
+    height: 100%;
 }
 .sec3 .part1{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0 0 0 0;
+    padding: 0 0 0 50%;
 }
 .sec3 .part1 .part1-1{
-    margin: 0 0 0 170%;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
 }
 .sec3 .part1 .part1-1 .awards{
     display: flex;
     justify-content: center;
-    padding: 0 0 0 38.5%;
+    padding: 0 0 0 0;
     color: #7e91cb;
 }
 .sec3 .part1 .part1-1 .awardstext{
@@ -186,8 +190,8 @@ body {
     align-items: center;
     text-align: center;
     width: 300px;
-    margin: 0 0 0 3%;
-    padding: 1% 0 0 0;
+    margin: 0 0 0 0;
+    padding: 1% 0 5% 0;
     line-height: 3.8vw;
     font-size: 1vw;
     color: black;
