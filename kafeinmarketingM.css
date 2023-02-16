@@ -32,7 +32,6 @@ body {
     background-size: contain;
     background-repeat: no-repeat;
     background-image: none;
-    height: 500px;
     display: flex;
 }
 .sec2 .sec2inner{
