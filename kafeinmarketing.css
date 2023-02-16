@@ -145,6 +145,79 @@ ul, li{
     font-size: 20px;
     color: white;
 }
+.sec3sub .part1 .flow_banner{
+    overflow: hidden;
+    display: flex;
+    max-width: 100vw;
+}
+.sec3sub .part1 .flow_banner .list{
+    display: flex;
+    gap: 50px;
+}
+.sec3sub .part1 .flow_banner .list > li{
+    display: flex;
+    border: 1px solid #ebebeb;
+}
+.sec3sub .part1 .flow_banner .list > li:nth-child(11){
+    border: none;
+}
+.sec3sub .part1 .flow_banner .list > li a{
+    width: 250px;
+    height: 350px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.sec3sub .part1 .flow_banner .list li:nth-child(1) a{
+    background-image: url("./sub1.png");
+}
+.sec3sub .part1 .flow_banner .list li:nth-child(2) a{
+    background-image: url("./sub2.png");
+}
+.sec3sub .part1 .flow_banner .list li:nth-child(3) a{
+    background-image: url("./sub3.png");
+}
+.sec3sub .part1 .flow_banner .list li:nth-child(4) a{
+    background-image: url("./sub4.png");
+}
+.sec3sub .part1 .flow_banner .list li:nth-child(5) a{
+    background-image: url("./sub5.png");
+}
+.sec3sub .part1 .flow_banner .list li:nth-child(6) a{
+    background-image: url("./sub6.png");
+}
+.sec3sub .part1 .flow_banner .list li:nth-child(7) a{
+    background-image: url("./sub7.png");
+}
+.sec3sub .part1 .flow_banner .list li:nth-child(8) a{
+    background-image: url("./sub8.png");
+}
+.sec3sub .part1 .flow_banner .list li:nth-child(9) a{
+    background-image: url("./sub9.png");
+}
+.sec3sub .part1 .flow_banner .list li:nth-child(10) a{
+    background-image: url("./sub10.png");
+}
+.mfp-zoom-out-cur .mfp-image-holder .mfp-close{
+    cursor: pointer;
+}
+@keyframes flowRolling {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+/* 반응형 스타일 */
+@media (max-width: 1280px) {
+    .flow_banner .list > li {font-size: 16px;padding: 10px;}
+}
+
+@media (max-width: 767px) {
+    .flow_banner .list > li {font-size: 14px;padding: 5px;}
+}
 .sec4{
     width: 100%;
     height: 100vh;
@@ -166,10 +239,45 @@ ul, li{
     padding: 30px 0 0 0;
     line-height: 50px;
     font-size: 28px;
-    cursor: pointer;
+}
+.sec4 .part1 .resulttext a{
+    text-decoration: none;
+    color: inherit;
+}
+.sec4 .part1 .resulttext a:visited{
+    text-decoration: none;
+    color: black;
 }
 .sec4 .part1 .resulttext .result1{
     color: #7e91cb;
+    cursor: pointer;
+}
+.sec4 .part1 .resulttext .result2{
+    cursor: pointer;
+}
+.sec4 .part1 .resulttext .result3{
+    cursor: pointer;
+}
+.sec4 .part1 .resulttext .result4{
+    cursor: pointer;
+}
+.sec4 .part1 .resulttext .result5{
+    cursor: pointer;
+}
+.sec4 .part1 .resulttext .moreview{
+    border: 3px solid #7e91cb;
+    display: flex;
+    float: right;
+    margin: 50px 0 0 0;
+    padding: 0 10px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.sec4 .part1 .resulttext .moreview:hover{
+    color: white;
+    background-color: #7e91cb;
+    transition: 0.5s;
+    cursor: pointer;
 }
 .sec4 .part2 .pc .pcimage{
     position: absolute;
@@ -180,7 +288,7 @@ ul, li{
     position: absolute;
     right: 40%;
     margin: 360px 0 0 0;
-    z-index: 5000;
+    z-index: 500;
 }
 .sec4 .part3 .resultpcimage .result1pcimage{
     position: absolute;
@@ -195,5 +303,29 @@ ul, li{
     height: 285px;
     right: 40.7%;
     margin: 400px 0 0 0;
-    z-index: 10000;
+    z-index: 501;
+}
+.sec5{
+    width: 100%;
+    height: 100vh;
+    background: #7e91cb;
+    background-size: fill;
+    display: flex;
+}
+.sec5 .part1{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    width: 100vw;
+}
+.sec5 .part1 .thanks{
+    font-family: 'Charm', cursive;
+    font-size: 150px;
+    margin: 0 auto;
+}
+.sec5 .part1 .thankstext{
+    margin: 30px 0 0 0;
+    font-size: 25px;
 }
