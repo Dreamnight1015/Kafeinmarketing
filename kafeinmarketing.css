@@ -25,6 +25,9 @@ ul, li{
     line-height: 35px;
     font-weight: 500;
 }
+.sec1 .introducet{
+    display: none;
+}
 .sec1 .name{
     display: flex;
     font-weight: 500;

@@ -82,7 +82,7 @@ $(document).ready(function(){
         $('.sec4 .part1 .resulttext .result4').css('color','#000000');
         $('.sec4 .part1 .resulttext .result1').css('color','#000000');
     })
-    $(document).ready(function () {
+    $(window).on('load', function () {
         setFlowBanner();  
     })
     
